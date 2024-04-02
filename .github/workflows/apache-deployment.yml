@@ -1,14 +1,16 @@
-on: push
 name: 🚀 Deploy and Publish website on push
+on: push
 jobs:
   web-deploy:
     name: 🎉 Deploy and Publish
     runs-on: ubuntu-latest
+    
     steps:
     - name: 🚚 Get latest code
       uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        ARGS: "-rlgoDzvc -i"
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
