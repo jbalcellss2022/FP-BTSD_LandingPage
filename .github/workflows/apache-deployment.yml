@@ -9,14 +9,11 @@ jobs:
     - name: Checkout code from repo to Actions work folder
       uses: actions/checkout@v2    
       
-    - name: List contents of /home/runner/work/...
-      run: ls -lah /home/runner/work/FP-BTSD_LandingPage/FP-BTSD_LandingPage/
-      
     - name: 🚚 Get latest code
       uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        ARGS: "-avzr"
+        ARGS: "-avzr --delete"
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
