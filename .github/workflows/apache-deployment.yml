@@ -6,13 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4xxxxxxx
 
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5xxxxxx
       with:
-        server: ftp.samkirkland.com
-        username: myFtpUserName
-        password: ${{ secrets.password }}
+        server: 79.143.89.216
+        username: root
+        password: ${{ secrets.FP-BTSD_Password }}
         protocol: ftps
-        port: 1234 
+        port: 43522 
