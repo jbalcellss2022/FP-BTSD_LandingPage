@@ -13,6 +13,6 @@ jobs:
       with:
         server: 79.143.89.216
         username: root
-        password: ${{ secrets.FP-BTSD_Password }}
+        password: ${{ secrets.DEBIANPASSWORD }}
         protocol: ftps
         port: 43522 
