@@ -15,6 +15,7 @@
   <summary>Table of contents</summary>
   <ol>
     <li><a href="#description">Description</a></li>
+    <li><a href="#accessibility">Accessibility considerations</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
   </ol>
 </details>
@@ -32,21 +33,44 @@ All mentioned data are fictitious but according to the theme of the project repr
 
 This project complies with all WCAG 2.0 accessibility standards and has been verified through W3C (World Wide Web Consortium) tools such as "W3C CSS Validation Service" or "Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Conformance".
 
+<!-- ACCESSIBILITY -->
+## Accessibility considerations
+<div id="accessibility"></div>
+
+This project complies with all WCAG 2.0 accessibility standards and has been verified through W3C (World Wide Web Consortium) tools such as "W3C CSS Validation Service" or "Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Conformance".
+
+<div id="block" align="center">
+    <div class="inline-block" style="display: inline-block; width: 20%">
+        <img src="images/wacg-1.png">
+    </div>
+    <br>
+    <div class="inline-block" style="display: inline-block; width: 20%">
+        <img src="images/wacg-2.png">
+    </div>
+    <div class="inline-block" style="display: inline-block; width: 20%">
+        <img src="images/wacg-3.png">
+    </div>
+</div>
+
+
 <!-- SCREENSHOTS -->
 ## Screenshots
 <div id="screenshots"></div>
 
 <div id="block" align="center">
-    <div class="inline-block" style="display: inline-block; width: 30%">
-        <img src="images/docker2.jpg">
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-1.png">
     </div>
     <br>
-    <div class="inline-block" style="display: inline-block; width: 30%">
-        <img src="images/docker3.jpg">
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-2.png">
     </div>
     <br>
-    <div class="inline-block" style="display: inline-block; width: 30%">
-        <img src="images/docker4.jpg">
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-3.png">
+    </div>
+    <br>
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-4.png">
     </div>
 </div>
-
