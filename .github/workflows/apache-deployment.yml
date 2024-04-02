@@ -12,8 +12,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: 79.143.89.216
-        username: root
+        username: sftpuser
         password: 8AURkp4jAwlKf0VI
         protocol: ftps
         port: 43522
-        server-dir: /var/www/LandingPage/
+        server-dir: /LandingPage/
