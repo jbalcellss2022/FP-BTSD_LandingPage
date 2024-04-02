@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: List contents of /home/runner/work/
+      run: ls -lah /home/runner/work/FP-BTSD_LandingPage/FP-BTSD_LandingPage/
+      
     - name: 🚚 Get latest code
       uses: easingthemes/ssh-deploy@main
       with:
