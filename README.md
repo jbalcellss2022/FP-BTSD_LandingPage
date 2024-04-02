@@ -31,8 +31,6 @@ This repository contains the source code of the project's main landpage accessib
 
 All mentioned data are fictitious but according to the theme of the project representing a real means of access to the backend through the "Login" button.
 
-This project complies with all WCAG 2.0 accessibility standards and has been verified through W3C (World Wide Web Consortium) tools such as "W3C CSS Validation Service" or "Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Conformance".
-
 <!-- ACCESSIBILITY -->
 ## Accessibility considerations
 <div id="accessibility"></div>
