@@ -1,9 +1,3 @@
-/*
- *
- *   INSPINIA - Responsive Admin Theme
- *   version 2.9.4
- *
-*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
 @font-face {
@@ -839,7 +833,7 @@ h1 {
 }
 .h2ash1{
   font-size: 30px!important;
-  color: #00000;
+  color: #000000;
 }
 h2 {
   font-size: 24px;
