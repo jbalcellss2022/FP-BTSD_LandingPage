@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="">
+    <meta name="author" content="Jordi Balcells">
+
+    <title>QRFY (Final Project, 2024)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta name="keywords" content="your, keywords, here">
+    <meta name="robots" content="index, follow">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+
+
+    <!-- Standard favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+
+    <!-- Recommended favicon format -->
+    <link rel="icon" type="image/png" href="/favicon/favicon.png">
+
+    <!-- Apple Touch Icons for various sizes -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+
+    <!-- For Android -->
+    <link rel="icon" sizes="192x192" href="/favicon//android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="/favicon//android-chrome-512x512.png">
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/mstile-310x310.png">
+
+    <!-- Safari Pinned Tab Icon -->
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- Manifest for web application -->
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body id="page-top" class="landing-page no-skin-config">
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="img/qrfy.png" height=70 alt="QRFY Logo">
+                </div>                
+                <div class="navbar-header page-scroll">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-label="button for top bar navigation bar">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="nav-link page-scroll" href="#page-top">Home</a></li>
+                        <li><a class="nav-link page-scroll" href="#features">Features</a></li>
+                        <li><a class="nav-link page-scroll" href="#team">Team</a></li>
+                        <li><a class="nav-link page-scroll" href="#testimonials">Testimonials</a></li>
+                        <li><a class="nav-link page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="nav-link page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="nav-link page-scroll btnlogin" href="https://backend.qrfy.es"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+<div id="inSlider" class="carousel slide" data-ride="carousel" >
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h2 class="h2ash1">We craft<br>catalogues, branding<br>
+                    and advanced links<br>
+                    we are QRFY</h2>
+                    <p>Transforming Businesses with web solutions</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="#features" role="button">Read more about QRFY</a>
+                        <a class="caption-link" href="#pricing" role="button">Pricing</a>
+                    </p>
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <img src="img/laptop.png" alt="laptop advertising image for fist slide">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                    <h2 class="h2ash1">We create meaningful <br> codebars that inspire</h2>
+                    <p>A tool that allows you to create all types of barcodes</p>
+                    <p>Empowering Your Digital Journey</p>
+                    <p><a class="btn btn-lg btn-primary" href="#features" role="button">Learn more</a></p>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#inSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#inSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<section id="features" class="container services">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Dynamic Barcode Customization Tool</h2>
+            <p>This tool would allow users to fully customize their barcodes. Beyond selecting standard formats (such as UPC, QR, EAN, etc.), users could adjust dimensions, colors, and add logos or texts inside or around the barcode. This functionality would be especially useful for brands that want to maintain visual consistency across their products or for special events that require unique barcodes.</p>
+            <p><a class="navy-link" href="#features" role="button">Details &raquo;</a></p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Real-Time Barcode Testing and Validation</h2>
+            <p>Integrate a feature that enables users to scan and test the readability of their generated barcodes directly from their device's camera. This could include testing under different lighting conditions and at various distances, ensuring the barcode works correctly in a wide range of situations. Additionally, this function could offer optimization suggestions based on the test results.</p>
+            <p><a class="navy-link" href="#features" role="button">Details &raquo;</a></p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Bulk Barcode Generation and Management</h2>
+            <p>Designed for businesses that need to create barcodes in bulk for multiple products, this feature would allow users to upload a CSV or Excel file with product information and automatically generate barcodes for each item. Moreover, it would include options to manage and organize these barcodes into folders or projects, making it easier to track and update them.</p>
+            <p><a class="navy-link" href="#features" role="button">Details &raquo;</a></p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Augmented Reality Barcode Placement Preview</h2>
+            <p>Leveraging augmented reality technology, this feature would enable users to visualize how barcodes would look on their products in real life. Using their device's camera, users could point at a product, and the app would superimpose the barcode in the desired position. This would be particularly useful for visualizing barcode placement and size before the final production of packaging or product labeling.</p>
+            <p><a class="navy-link" href="#features" role="button">Details &raquo;</a></p>
+        </div>
+    </div>
+</section>
+
+<section  class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">More than 40+ unique barcode symbologies<br> <span class="navy"> with several custom settings</span> </h2>
+            <p>You will be able to customise any of the generated codes.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>
+                <i class="fa fa-mobile features-icon"></i>
+                <h2>Full responsive</h2>
+                <p>Leverage the power of our analytics dashboard with dynamic charts that track the performance and scan rates of your generated barcodes, enabling data-driven decisions for your business.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-bar-chart features-icon"></i>
+                <h2>Charts manager</h2>
+                <p>QRFY codebar manager's interactive charts provide instant visual insights into your barcode inventory, showcasing trends in product distribution and stock levels over time.</p>
+            </div>
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">
+            <img src="img/perspective.png" alt="perspective image fro alt atribute" class="img-fluid">
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-envelope features-icon"></i>
+                <h2>Explore</h2>
+                <p>Explore the efficiency of your logistics through QRFY codebar manager's charts, visualizing the geographical distribution of your products based on barcode scans from different regions.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-google features-icon"></i>
+                <h2>Advanced version</h2>
+                <p>You can easily compare the usage patterns of various barcode types, thanks to our comprehensive charting tools, helping you optimize your barcode strategy for maximum impact.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Discover great features</h2>
+            <p>"Discover Unparalleled Features: Dive into a world where innovation meets practicality with QRFY codebar solutions. Our feature-rich web applications offer unparalleled functionality, designed to enhance user engagement and operational efficiency. Experience greatness at your fingertips and unlock your business's full potential"
+</p>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-6 features-text wow fadeInLeft">
+            <small>QRFY</small>
+            <h2>Perfectly designed </h2>
+            <p>Perfectly designed barcodes ensure flawless scanning every time, enhancing operational efficiency and reducing checkout times in retail environments. Our barcodes are crafted to meet precise industry standards, guaranteeing compatibility across all scanning technologies and supply chain requirements.</p>
+            <a href="" class="btn btn-primary">Learn more</a>
+        </div>
+        <div class="col-lg-6 text-right wow fadeInRight">
+            <img src="img/dashboard.png" alt="dashboard image sample for this section" class="img-fluid float-right">
+        </div>
+    </div>
+</section>
+
+<section id="team" class="gray-section team">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">Our Team</h2>
+                <p>We are a small team covering all areas of the company.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="img/avatar3.jpg" class="img-fluid rounded-circle img-small" alt="first person of our company team">
+                    <h3><span class="navy">Amelia Smith</span>, Lead UI/UX Designer</h3>
+                    <p>Design user interfaces that are both aesthetically pleasing and user-friendly. Conduct user research and testing to ensure the web application meets the target audience's needs. Work closely with developers to implement designs accurately.   Stay updated on the latest design trends and technologies to continuously improve the user experience.</p>
+                    <ul class="list-inline social-icon">
+                        <li class="list-inline-item"><a href="https://twiter.com/qrfy.es/amelia" aria-label="Follow me on Twitter, I'm Amelia"> <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://facebook.com/qrfy.es/amelia" aria-label="Follow me on Facebook, I'm Amelia"> <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/qrfy.es/amelia" aria-label="Follow me on Linkedin, I'm Amelia"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="img/avatar1.jpg" class="img-fluid rounded-circle" alt="second person of our company team">
+                    <h4><span class="navy">John Noval</span>, Full Stack Developer</h4>
+                    <p>    Develop and maintain the front-end and back-end components of the web application. Ensure the application's performance, quality, and responsiveness. Integrate third-party services and APIs. Collaborate with the design team to realize visual concepts.
+    Implement security and data protection measures.</p>
+                    <ul class="list-inline social-icon">
+                        <li class="list-inline-item"><a href="https://twiter.com/qrfy.es/John" aria-label="Follow me on Twitter, I'm John"> <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://facebook.com/qrfy.es/John" aria-label="Follow me on Facebook, I'm Amelia"> <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/qrfy.es/john" aria-label="Follow me on Linkedin, I'm Amelia"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="img/avatar2.jpg" class="img-fluid rounded-circle img-small" alt="third person of our company team">
+                    <h4><span class="navy">Peter Johnson</span>, Project Manager</h4>
+                    <p>    Coordinate between the development and design teams to ensure projects are completed on schedule and within budget. Manage project scopes, timelines, and resources effectively. Communicate with stakeholders to gather requirements and provide progress updates. Identify and mitigate project risks. Foster a collaborative and productive team environment.</p>
+                    <ul class="list-inline social-icon">
+                        <li class="list-inline-item"><a href="https://twiter.com/qrfy.es/peter" aria-label="Follow me on Twitter, I'm Peter"> <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://facebook.com/qrfy.es/peter" aria-label="Follow me on Facebook, I'm Peter"> <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/qrfy.es/peter" aria-label="Follow me on Linkedin, I'm Peter"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center m-t-lg m-b-lg">
+                <p>"Our team of dedicated professionals is at the forefront of barcode technology, combining innovative thinking with years of industry experience to deliver solutions that are not just effective but transformative. We are passionate about empowering businesses with the tools they need to succeed in today's fast-paced market. Join us, and let's create the future of inventory management together."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">Even more great feautres</h2>
+                <p>Our barcode inventory system features seamless API integration, allowing for easy synchronization with your existing <br>
+                ERP or warehouse management software, streamlining inventory tracking and updates in real-time.</p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-3 features-text wow fadeInLeft">
+                <small>QRFY</small>
+                <h2>Advanced API Support</h2>
+                <p>With robust API support, our barcode solution facilitates automated data exchange, enabling efficient inventory management, from stock level adjustments to item location tracking, directly through your software ecosystem.</p>
+                <a href="" class="btn btn-primary">Learn more</a>
+            </div>
+            <div class="col-lg-6 text-right m-t-n-lg wow zoomIn">
+                <img src="img/iphone.jpg" class="img-fluid" alt="dashboard image sample for the first section">
+            </div>
+            <div class="col-lg-3 features-text text-right wow fadeInRight">
+                <small>QRFY</small>
+                <h2>Inventory management</h2>
+                <p>Enhance your inventory control with our barcode system's API integration, effortlessly connecting to third-party platforms for real-time inventory analysis, ensuring accuracy and visibility across all your channels.</p>
+                <a href="" class="btn btn-primary">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="timeline gray-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">Our history</h2>
+                <p>"In just a few short years, our company has leaped from a visionary startup to a leading force in the barcode industry, driving innovation and setting new standards for efficiency and reliability. Our journey reflects our commitment to excellence and a relentless pursuit of solutions that not only meet but exceed the evolving needs of businesses worldwide. With each milestone, we're not just marking our success; we're shaping the future of how businesses interact with technology."</p>
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Founding</h2>
+                            <p>QRFY was established in early 2022 by a group of passionate software developers and entrepreneurs. The company was founded with the vision of delivering cutting-edge web application solutions that cater to businesses of all sizes, focusing on innovation, user experience, and scalability.
+                            </p>
+                            <a href="#features" class="btn btn-xs btn-primary"> More info</a>
+                            <span class="vertical-date"> 2022 <br> <small>Dec 24</small> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-file-text"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Growth and Challenge</h2>
+                            <p>    <span>Product Launch</span>: The flagship product was officially launched in the first quarter of 2023. It received positive feedback for its user-friendly design and flexibility, which were largely attributed to Amelia's design leadership and John's technical implementation. <span>Market Expansion</span>: Following the successful launch, QRFY Solutions began expanding its market reach, targeting not only SMEs but also partnering with larger corporations to offer tailored solutions.</p>
+                            <a href="#features" class="btn btn-xs btn-primary"> More info</a>
+                            <span class="vertical-date"> 2023 <br> <small>Dec 26</small> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Consolidation and Innovation</h2>
+                            <p>    <span>Strategic Partnerships</span>: To overcome challenges and solidify its market position, QRFY Solutions formed strategic partnerships with technology leaders and innovators. <span>Innovation</span>: Under Peter Johnson's leadership, the company launched an innovation lab aimed at exploring emerging technologies and integrating them into their solutions. <span>Global Reach</span>: By 2024, QRFY Solutions had successfully entered international markets, with a focus on regions with a high demand for digital transformation services.</p>
+                            <a href="#features" class="btn btn-xs btn-primary"> More info</a>
+                            <span class="vertical-date"> 2024 <br> <small>Jan 02</small> </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn">
+                <i class="fa fa-comment big-icon"></i>
+                <h2 class="h2ash1">
+                    What our users say
+                </h2>
+                <div class="testimonials-text">
+                    <i>"This webapp has been a game-changer for our logistics. The bulk barcode generation and real-time tracking have streamlined our entire supply chain. It's reliable, fast, and exactly what we needed. I'm impressed by the customization options for promotional barcodes. Creating engaging, brand-aligned QR codes for our campaigns has opened up new avenues for customer interaction and analytics.
+                    </i>
+                </div>
+                <small>
+                    <strong>12.02.2023 - Andy Smith</strong>
+                </small>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="comments gray-section" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">What our partners say</h2>
+                <p>"Discover the impact of partnership with us through the voices of those who know us best. Our partners share their stories of growth, innovation, and success, highlighting how our barcode solutions have empowered their operations. Dive into their experiences to see the real-world benefits of joining our network."</p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "The barcode web app has revolutionized our checkout process. Scanning accuracy has improved, and it's incredibly user-friendly. Inventory management is now a breeze!"
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img src="img/avatar3.jpg" alt="first person of our company team">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Samantha Gotham
+                        </div>
+                        <small class="text-muted">Event Coordinator at NextGen</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "As a small business, this app has leveled the playing field for us. The affordability and features like real-time validation has enhanced both our product presentation."
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img src="img/avatar1.jpg" alt="second person image of our company team">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Derek Woerth
+                        </div>
+                        <small class="text-muted">Operations Manager at POS Sales Slu, Barcelona</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "From an IT perspective, the app's robust security features and easy integration with existing systems make it a standout choice. Support team is very responsive and helpful."
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img src="img/avatar2.jpg" alt="third person of our company team">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Andrew Williams
+                        </div>
+                        <small class="text-muted">IT Manager at Sales.com</small>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">More and more extra great feautres</h2>
+                <p>In addition you will enjoy the following extraordinary functions.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-lg-offset-1 features-text">
+                <small>QRFY</small>
+                <h2>Inventory Forecasting</h2>
+                <i class="fa fa-bar-chart big-icon float-right"></i>
+                <p>Utilize machine learning algorithms to analyze barcode scan data, providing predictive insights into inventory needs. This feature would forecast stock levels, helping businesses anticipate demand spikes and prevent overstock or stockouts, optimizing inventory management based on historical sales trends and seasonal fluctuations.</p>
+            </div>
+            <div class="col-lg-5 features-text">
+                <small>QRFY</small>
+                <h2>Voice-Activated Barcode Generation</h2>
+                <i class="fa fa-bolt big-icon float-right"></i>
+                <p>Integrate voice recognition technology to allow users to create barcodes hands-free. This innovation would be particularly useful in environments where manual data entry is impractical or when users need to multitask. Simply speaking the product details or code would generate the corresponding barcode, streamlining the creation process in warehouses, retail spaces, or during inventory audits.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-lg-offset-1 features-text">
+                <small>QRFY</small>
+                <h2>AR Scanning and Information Overlay</h2>
+                <i class="fa fa-clock-o big-icon float-right"></i>
+                <p>Enhance the barcode scanning process with an AR feature that overlays detailed product information, stock levels, or location data directly onto the user's viewfinder in real-time. This could transform how users interact with physical inventory, making it easier to locate items in large warehouses or providing additional product details to customers in a retail setting.</p>
+            </div>
+            <div class="col-lg-5 features-text">
+                <small>QRFY</small>
+                <h2>Blockchain-Enabled Barcode Verification</h2>
+                <i class="fa fa-users big-icon float-right"></i>
+                <p> Implement blockchain technology to secure barcode data, ensuring the authenticity and traceability of products. This feature would be invaluable for luxury goods, pharmaceuticals, and any industry where counterfeit products are a concern. By storing barcode information on a blockchain, each product can be verified as genuine, and its journey through the supply chain can be transparently tracked from production to end consumer.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="pricing" class="pricing">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">Princing of the service</h2>
+                <p>Enjoy three different pricing systems according to your needs</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Basic
+                    </li>
+                    <li class="pricing-desc">
+                        Standard barcode generation (e.g., UPC, QR codes, EAN) with basic customization (size, color). Single-user access. Basic reporting tools for analytics on barcode generation and scan rates. Email support with a 48-hour response time.
+                    </li>
+                    <li class="pricing-price">
+                        <span>5 €</span> / month
+                    </li>
+                    <li>
+                        Standard barcodes
+                    </li>
+                    <li>
+                        Single-user access
+                    </li>
+                    <li>
+                        Basic reporting
+                    </li>
+                    <li>
+                        Support: email with a 48-hour/RT
+                    </li>
+                    <li>
+                        <a class="btn btn-primary btn-xs" href="https://qrfy.es/singup?type=basic">Signup</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled selected">
+                    <li class="pricing-title">
+                        Standard
+                    </li>
+                    <li class="pricing-desc">
+                        Enhanced barcode customization, including logos or text additions and a wider selection of barcode types. Multi-user access (up to 5 accounts). Dynamic barcode testing and validation with real-time scanning capabilities. Inventory integration with a single external system for automated tracking. Priority email and chat support for quicker issue resolution.
+                    </li>
+                    <li class="pricing-price">
+                        <span>15 €</span> / month
+                    </li>
+                    <li>
+                        Barcode Customization
+                    </li>
+                    <li>
+                        Multi-user access
+                    </li>
+                    <li>
+                        Dynamic barcodes
+                    </li>
+                    <li>
+                        Inventory integration
+                    </li>
+                    <li>
+                        <strong>Support platform</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a class="btn btn-primary btn-xs" href="https://qrfy.es/singup?type=standard">Signup</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Premium
+                    </li>
+                    <li class="pricing-desc">
+                        Smart inventory forecasting using AI to anticipate stock needs based on scan data. Unlimited user access, suitable for larger teams and organizations. Augmented reality (AR) scanning and information overlay for interactive product insights. Blockchain-enabled barcode verification for authenticity and supply chain transparency. API access for custom integration with unlimited external systems. 24/7 premium support including email, chat, phone, and a dedicated account manager.
+                    </li>
+                    <li class="pricing-price">
+                        <span>35 €</span> / month
+                    </li>
+                    <li>
+                        AI smart inventory
+                    </li>
+                    <li>
+                        Unlimited user access
+                    </li>
+                    <li>
+                        AR scanning
+                    </li>
+                    <li>
+                        Blockchain-enabled
+                    </li>
+                    <li>
+                        External API access
+                    </li>
+                    <li>
+                        <strong>Priority support platform</strong>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary btn-xs" href="https://qrfy.es/singup?type=premium">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row m-t-lg">
+            <div class="col-lg-12 text-center m-t-lg">
+                <p>Each tier is designed to offer progressively more sophisticated features and support options, catering to a wide range of business needs from small startups to large enterprises. This tiered approach allows customers to choose a plan that fits their current requirements while providing the flexibility to upgrade as their business grows.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h2 class="h2ash1">Contact Us</h2>
+                <p>Contact us if you have any doubts about what QRFY can do to automate your sales, inventory, logistics and any other service.</p>
+            </div>
+        </div>
+        <div class="row m-b-lg justify-content-center">
+            <div class="col-lg-3 ">
+                <address>
+                    <strong><span class="navy">Bachelor's Degree in Techniques for Software Application Development, 2024 Final Project</span></strong><br>
+                    Rambla del Poblenou, 154-156<br>
+                    08018, Barcelona, Spain<br>
+                    <abbr title="Email">Email:</abbr> <a href="mailto:support@qrfy.es">jbalcells@uoc.edu</a>
+                </address>
+            </div>
+            <div class="col-lg-4">
+                <p class="text-color">
+                    Ready to revolutionize your inventory management and elevate your brand experience with cutting-edge barcode solutions? Contact us today to discover how our barcode services can seamlessly integrate into your operations, ensuring efficiency, reliability, and innovation at every scan. Let's unlock the full potential of your business together.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:jbalcells@uoc.edu" class="btn btn-primary">Send us mail</a>
+                <p class="m-t-sm">
+                    Or follow us on social platform
+                </p>
+                <ul class="list-inline social-icon">
+                    <li class="list-inline-item"><a href="https://twiter.com/qrfy.es" aria-label="Follow us on Twitter"> <i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://facebook.com/qrfy.es" aria-label="Follow us on Facebook"> <i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/qrfy.es" aria-label="Follow us on Linkedin"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2024 QRFY</strong><br>UOC, Bachelor's Degree in Techniques for Software Application Development - Final Project, 2024</p>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=http%3A%2F%2F79.143.89.216%2F&usermedium=all&vextwarning=&warning=no">
+                        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid HTML+CSS!" />
+                    </a>
+                    <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explanation of WCAG 2 Level A Conformance"> 
+                        <img height="32" width="88" src="https://www.w3.org/WAI/WCAG22/wcag2.2A" alt="Level A conformance, W3C WAI Web Content Accessibility Guidelines 2.2">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+<!-- Mainly scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+<script src="js/plugins/wow/wow.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+
+        $('body').scrollspy({
+            target: '#navbar',
+            offset: 80
+        });
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+            $("#navbar").collapse('hide');
+        });
+    });
+
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+    })();
+
+    // Activate WOW.js plugin for animation on scrol
+    new WOW().init();
+</script>
+
+</body>
+</html>
