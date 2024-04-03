@@ -72,4 +72,3 @@ This project complies with all WCAG 2.0 accessibility standards and has been ver
         <img src="images/landingpage-4.png">
     </div>
 </div>
-
