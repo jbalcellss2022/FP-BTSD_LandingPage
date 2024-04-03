@@ -2,7 +2,7 @@ name: 🚀 Deploy and Publish website on "Push"
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
 
   web-deploy:
